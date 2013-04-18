@@ -1,0 +1,282 @@
+body {
+	background: url("../img/gray_jean.png")repeat;
+}
+
+h1 a.brand { 
+	background:url("../img/logo2.png") no-repeat scroll 0 0 transparent;
+	text-indent:-9999px;
+	display:block;
+	width:260px
+}
+
+.navbar a.buy, a.buy-big, .wrapper-benefits a.buy, a.sponsor, a.sub-nav {
+	background-color:#F26531; 
+	border-radius:10px;
+	margin-left:50px;
+	padding:10px;
+}
+
+a.sub-nav { 
+	background-color: rgb(47, 47, 46);
+	margin-left:10px;
+	font-size: 15px;
+	color:#fff;
+	outline:none;
+ }
+
+ a.sub-nav:hover { 
+ 	background-color:#000;
+ 	color:rgb(242,101,49);
+  }
+
+a.sponsor {
+	background-color: rgb(85, 183, 43);
+	font-size: 15px;
+	margin-left:15px;
+}
+
+a.sponsor:hover {
+	color:#fff;
+	background-color: rgb(28, 98, 226)
+}
+
+a.buy, a.buy-big, a.sponsor  { color:#fff; }
+.navbar a.buy:hover, a.buy-big:hover, .wrapper-benefits a.buy:hover { color: #fff; background-color: rgb(85, 183, 43)  }
+a.buy-big { display:inline-block; font-size:25px; margin-left:0px; margin-top:5px; padding:15px; }
+
+.hero-unit .lead { font-size:35px; font-weight: bold }
+
+/*helpers*/
+.add-bot-xlarge { margin-bottom:50px; }
+.add-bot-large { margin-bottom:40px; }
+.add-bot { margin-bottom:30px; }
+.add-bot-med { margin-bottom:15px; }
+
+.add-top-xlarge { margin-top:50px; }
+.add-top-large { margin-top:40px; }
+.add-top { margin-top:30px; }
+.add-top-med { margin-top:15px; }
+.add-top-small { margin-top:10px; }
+
+.regular-fs { font-size:16px; line-height: 25px }
+
+.summary hr, hr.speakers { border-style: dashed }
+hr.last { border-style: solid none }
+hr.speakers { margin-top: 1px }
+
+a.e27logo {
+	background:url("../img/e27-logo-small.png") no-repeat scroll 0 0 transparent;
+	text-indent: -9999px;
+	display: block;
+	width:150px;
+	height:69px;
+	outline: none
+}
+
+.hero-unit, .hero-unit.speakers { 
+	color:#fff;
+	margin-top:20px;
+	background-color: #000;
+	border-radius: 0px;
+	padding:40px;
+	background-attachment: scroll;
+    background-image: url("../img/showcase-bg.png");
+    background-origin: padding-box;
+    background-position: left top, center center;
+    background-repeat: repeat, no-repeat;
+    z-index: 100;
+ }
+
+.hero-unit, .hero-unit.speakers, .hero-unit.agenda { 
+	background-clip: padding-box;
+	border-radius: 0 0 20px 20px
+ }
+
+
+.hero-unit h1 { 
+	 font-size: 60px;
+    margin-bottom: 12px;
+    text-shadow: 0 2px 50px rgb(0, 0, 0);
+}
+
+.hero-unit.speakers, .hero-unit.agenda, .hero-unit.venue, .hero-unit.benefits, .hero-unit.whos-in {
+	background-image: url("../img/speaker-header.png");
+	height:200px;
+}
+
+.hero-unit.agenda {
+	background-image: url("../img/agenda-header.png");
+}
+
+.hero-unit.venue {
+	background-image: url("../img/venue-header.png");
+}
+
+.hero-unit.benefits {
+	background-image: url("../img/benefits-header.png");
+}
+
+.hero-unit.whos-in {
+	background-image: url("../img/whosin-header.png");
+}
+
+
+.speakers h1, .whos-in h1 { margin-top:0px; } 
+
+#speaker a.speakerImage img, #judge a.speakerImage img, .lbox img,
+.sat-speakers a.speakerImage img { 
+	background-clip: padding-box;
+	border-radius: 50%;
+	height:200px;
+	width:200px;
+}
+
+#speaker a.speakerImage:hover img {
+	background:url("../img/speakers/david-kadavy-g-hover.jpg");
+}
+
+ul#speakersTab { width:260px; margin:0 auto; font-size: 18px; font-weight: bold }
+ul#speakersTab li a { width:100px; }
+
+#satellites .span4 img { 
+	border-radius: 10px;
+    -webkit-filter: grayscale(80%);
+ }
+
+ #satellites .span4 a img:hover {
+ 	-webkit-transition: all .6s ease;
+ 	 -webkit-filter: none;
+ }
+
+ #satellites hr { border-style: dashed; margin:10px 0 10px 0; }
+
+  #venueTabContent iframe{ 
+  	background-clip: padding-box; 
+  	border-radius: 20px;
+  	border:3px solid #fff; 
+  	margin-top: 15px
+  }
+
+  div.transpo .mrt, div.transpo .bus, div.transpo .taxi, div.transpo .aero { 
+  	background: url("../img/transpo-sprite.png")no-repeat scroll 0 0 transparent;
+  	display: inline-block;
+  	height:70px; 
+  }
+    
+  div.transpo .bus {
+    background-position: 0 -16px; 
+  }
+
+  div.transpo .mrt {
+    background-position: 0 -260px; 
+  }
+    
+  div.transpo .taxi {
+    background-position: 0 -180px; 
+  }	
+
+   div.transpo .aero {
+    background-position: 0 -94px; 
+  }	
+
+.footer-sponsors {
+	background-color:#fff; 
+	padding-top:20px; 
+	border-top:1px solid #cac9c9
+}
+
+.wrapper-benefits .span3 {
+	background-color: #fff;
+	border:1px solid #ccc;
+}
+
+.wrapper-benefits h3 {
+	color:#F26531;
+	background:none repeat scroll 0 0 #f5f3f3;
+	text-align: center;
+	margin:0;
+	padding:10px 0 10px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+}
+.wrapper-benefits ul { margin:0px 45px 30px; }
+.wrapper-benefits a.buy { margin-left:0px; }
+
+#supporTabContent .main-sponsors .span3 .wrapper-logo, #supporTabContent .sat-sponsors .span3,
+.satellite-sponsors .span3 { 
+	background-color: #fff;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	text-align: center;
+ }
+
+.main-sponsors h4 { margin:0px; border-radius: 0px 10px}
+
+.first-day ul { list-style-type: none;}
+.first-day li { margin-bottom:20px; border-bottom:1px solid #ccc; }
+.first-day li:nth-child(2nd) { background: none repeat scroll 0 0 rgba (0,0,0,0.05); }
+.first-day li.last { border:none; }
+.first-day h4 { margin-top:0px; margin-bottom: 5px }
+.first-day .lead { margin-bottom: 5px } 
+ .first-day time {
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	margin-right: 20px
+ }
+ .first-day .agenda-desc {
+ 	text-align: left;
+ 	display: inline-block;
+ 	width:60%;
+ 	margin-bottom:15px;
+ }
+
+ .socials a.facebook,  
+ .socials a.twitter,
+ .socials a.linkedin,
+ .socials a.facebook:hover,  
+ .socials a.twitter:hover,
+ .socials a.linkedin:hover { 
+ 	background: url("../img/social-sprite.png")no-repeat scroll 0 0 transparent;
+ 	text-indent: -9999px;
+ 	display: inline-block;
+ 	height:25px;
+ 	width: 25px 
+  }
+
+  .socials a.facebook { background-position: 0 -26px }
+  .socials a.linkedin { background-position: 0 -51px }
+
+  .socials a.twitter:hover { background-position: 0 -76px }
+  .socials a.facebook:hover { background-position: 0 -101px }
+  .socials a.linkedin:hover { background-position: 0 -126px }
+
+  .lbox { width:500px; display: none }
+  .lbox .span7 { padding:50px 0 0 20px; }
+
+
+  /* Satellite */
+  .satellite.japan {
+  	background-image: url("../img/satellites/japan-header.png");
+	height:270px;
+  }
+
+  .satellite-sponsors li { 
+  	    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 15px;
+   }
+
+  a.buy-big.sat-btn{ margin-top:25px !important; }
+
+ 
+
+
+
+
+
+
