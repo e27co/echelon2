@@ -40,7 +40,7 @@ a.sponsor:hover {
 	background-color: rgb(28, 98, 226)
 }
 
-a.buy, a.buy-big, a.sponsor  { color:#fff; }
+a.buy, a.buy-big, a.sponsor  { color:#fff; font-weight: 500 }
 .navbar a.buy:hover, a.buy-big:hover, .wrapper-benefits a.buy:hover { color: #fff; background-color: rgb(85, 183, 43)  }
 a.buy-big { display:inline-block; font-size:25px; margin-left:0px; margin-top:5px; padding:15px; }
 
@@ -99,7 +99,7 @@ a.e27logo {
     text-shadow: 0 2px 50px rgb(0, 0, 0);
 }
 
-.hero-unit.speakers, .hero-unit.agenda, .hero-unit.venue, .hero-unit.benefits, .hero-unit.whos-in {
+.hero-unit.speakers, .hero-unit.agenda, .hero-unit.venue, .hero-unit.benefits, .hero-unit.whos-in, .hero-unit.ticket {
 	background-image: url("../img/speaker-header.png");
 	height:200px;
 }
@@ -120,6 +120,10 @@ a.e27logo {
 	background-image: url("../img/whosin-header.png");
 }
 
+.hero-unit.ticket {
+	background-image: url("../img/ticket-header.png");
+}
+
 
 .speakers h1, .whos-in h1 { margin-top:0px; } 
 
@@ -129,10 +133,11 @@ a.e27logo {
 	border-radius: 50%;
 	height:200px;
 	width:200px;
+	border:2px solid #fff;
 }
 
-#speaker a.speakerImage:hover img {
-	background:url("../img/speakers/david-kadavy-g-hover.jpg");
+#speaker a.speakerImage:hover img, #judge a.speakerImage:hover img {
+	border:2px solid #ccc
 }
 
 ul#speakersTab { width:260px; margin:0 auto; font-size: 18px; font-weight: bold }
@@ -272,6 +277,16 @@ ul#speakersTab li a { width:100px; }
    }
 
   a.buy-big.sat-btn{ margin-top:25px !important; }
+
+  .main-sponsor img {
+  	background-color: #fff;
+  	border-radius: 10px;
+  	border:1px solid #ccc;
+  }
+
+.main-sponsor { background: url("../img/noisy_grid.png") repeat scroll 0 0; border-top: 1px solid #ccc; padding:15px 0px 25px; }
+.main-sponsor .lead { margin-bottom: 5px }
+
 
  
 
