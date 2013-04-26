@@ -10,6 +10,15 @@ a:hover, a:active { text-decoration: none }
 	color:#F26531;
 	text-shadow:none;
  }
+ 
+.navbar-inverse .nav .current-menu-item > a, 
+.navbar-inverse .nav .current-menu-item > a:hover, 
+.navbar-inverse .nav .current-menu-item > a:focus { 
+	border-radius: 10px;
+	color:#F26531;
+	text-shadow:none;
+	background-color: #111111;
+ }
 
 .navbar-inverse .nav li > a:hover { color:#F26531; }
 
