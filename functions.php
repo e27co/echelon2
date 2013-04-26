@@ -1892,7 +1892,7 @@ class E_Sponsor extends Echelon {
 	var $title;
 		
 	public function __construct() {
-		$this->slug = "sponsor";
+		$this->slug = "sponsors";
 		$this->label = "Sponsors";
 		$this->title = "Sponsor Name";
 		
@@ -2078,7 +2078,7 @@ class E_Sponsor extends Echelon {
 		<table id='<?php echo $this->slug; ?>' style='width:100%'>
 		<tr>
 			<td colspan=2>
-			<b>Logo (210px x 192px)<br /><br /></b>
+			<b>Logo (175px x 175px)<br /><br /></b>
 			<img id="<?php echo $this->slug; ?>_image" src="<?php echo $image_src ?>" style="max-width:100%;" />
 			<input type="hidden" name="upload_image_id" id="upload_image_id" value="<?php echo $image_id; ?>" />
 			<p>
@@ -2095,17 +2095,19 @@ class E_Sponsor extends Echelon {
 		</tr>
 		<tr>
 			<td>
+			<br /><br />
 			<b>Category<br /></b>
 			<select name='type' id='xtype'>
-				<option value='Premier'>Premier</option>
-				<option value='Regular'>Regular</option>
-				<option value='Satellite'>Satellite</option>
-				<option value='Supporting'>Supporting</option>
-				<option value='Tech'>Tech</option>
-				<option value='Launchpad Prize'>Launchpad Prize</option>
-				<option value='Afterevent'>Afterevent</option>
-				<option value='Chill Out'>Chill Out</option>
-				
+				<option value='Strategic Partners'>Strategic Partners</option>
+				<option value='Premier Sponsors'>Premier Sponsors</option>
+				<option value='Supporting Sponsors'>Supporting Sponsors</option>
+				<option value='Regular Sponsors'>Regular Sponsors</option>
+				<option value='Tech Sponsors'>Tech Sponsors</option>
+				<option value='Launchpad Prize Sponsors'>Launchpad Prize Sponsors</option>
+				<option value='Supporting Organizations'>Supporting Organizations</option>
+				<option value='Afterevent Sponsors'>Afterevent Sponsors</option>
+				<option value='Chill Out Sponsors'>Chill Out Sponsors</option>
+				<option value='Satellite Sponsors'>Satellite Sponsors</option>
 			</select>
 			<script>
 			jQuery("#xtype").val("<?php echo $type; ?>");
@@ -2129,20 +2131,19 @@ class E_Sponsor extends Echelon {
 		<tr>
 			<td>
 			<br /><br />
-			<b>Show on Footer<br /><br /></b>
+			<b>Show on Sidebar<br /><br /></b>
 			<select name='sidebar' id='sidebarx'>
 				<option value='Yes'>Yes</option>
 				<option value='No'>No</option>
 			</select>
 			<br /><br />
-			<!--
 			<b>Exclude from Sponsors Page<br /><br /></b>
 			<select name='exclude' id='excludex'>
 				<option value='No'>No</option>
 				<option value='Yes'>Yes</option>
 			</select>
 			<br /><br />
-			-->
+			
 			<?php			
 			$arr = getSatellites();
 			$t = count($arr);
